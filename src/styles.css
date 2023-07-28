@@ -1,0 +1,151 @@
+/* theme colors
+
+1: yellow : #FFF512
+2: yellow2 : #FFDE40
+3: yellow3 : #EBB014
+4: gold : #DE8D00
+5: brown : #9C4100
+6: black : #090907
+
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	background: url('choosed.jpg');
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+.landing-page {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+.top-logo {
+	height: 210px;
+	width: 100vw;
+}
+.info-bar {
+	height: 150px;
+	width: 100vw;
+	background: #090907;
+	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 86%);
+}
+.pubg-man {
+	position: absolute;
+	bottom: 20px;
+}
+.pubg-man-img {
+	height: 450px;
+	width: 100vw;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	color: #FFF512;
+	font-family: 'PT Sans Narrow';
+	font-weight: light;
+	font-size: 5rem;
+}
+.fine {
+	font-size: 2rem;
+	letter-spacing: 8px;
+}
+.hr {
+	height: 5px;
+	width: 100vw;
+	background: linear-gradient(to left,transparent,#FFDE40, transparent);
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #FFF512;
+	font-family: 'PT Sans Narrow';
+	font-weight: light;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+}
+.button {
+	height: 60px;
+	width: 250px;
+	background: url('buttonbg.jpg');
+	margin-left: calc(50vw - 125px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #090907;
+	font-family: 'PT Sans Narrow';
+	font-weight: bold;
+	font-size: 2.5rem;
+	letter-spacing: 10px;
+}
+.footer {
+	height: 50vh;
+	width: 100vw;
+	background: #090907;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: sans-serif;
+}
+.copyright-st {
+	height: 10vh;
+	width: 90vw;
+	margin-left: 5vw;
+	margin-top: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.space {
+	height: 2px;
+	width: 15px;
+}
+.collect-data-page {
+	flex-direction: column;
+}
+.missions-page {
+	flex-direction: column;
+}
+.gmail-address-input-box {
+	height: 30vh;
+	width: 80vw;
+	margin-left: 5vw;
+	background: #090907;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+.blackinput {
+	height: 5vh;
+	width: 70vw;
+	margin-left: 5vw;
+	background: rgba(255, 255, 255, 0.1);
+	outline: none;
+	font-family: 'PT Sans Narrow';
+	color: #EBB014;
+}
+.alert-banner {
+	position: fixed;
+	z-index: 100;
+	height: 6vh;
+	width: 100vw;
+	background: url('buttonbg.jpg');
+	transition: 1s;
+	background-size: 100%;
+	transform: translateY(-6vh);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'PT Sans Narrow';
+	color: #090907;
+}
+.hall-of-fame {
+	height: 30vh;
+	width: 100vw;
+	background: #090907;
+}
